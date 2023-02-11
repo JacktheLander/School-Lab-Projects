@@ -6,11 +6,10 @@
  */
 #include <stdio.h>
 #include <stdlib.h>
-#include "11lab4.h"
 
 //Global Variables
 
-/*int counter = 0;
+int counter = 0;
 struct order{
 	
 	int origin;
@@ -30,7 +29,7 @@ struct order order[10];
 int add();
 int fulfill();
 int list();
-int speclist();*/
+int speclist();
 
 //Main
 
