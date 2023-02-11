@@ -42,9 +42,9 @@ int main(){
 		case 3:
 			list();
 			break;
-		/*case 4:
+		case 4:
 			speclist();
-			break;*/
+			break;
 		case 0:
 			return 0;
 	}
@@ -121,7 +121,7 @@ int list(){
 	return 1;
 }
 
-/*int speclist(){
+int speclist(){
 
 	int i, limit;
 	printf("\nWhat is the drink limit you want to specify for your list?\n");
@@ -134,7 +134,7 @@ int list(){
 	}
 
 	return 1;
-}*/
+}
 
 
 
