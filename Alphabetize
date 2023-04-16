@@ -21,6 +21,12 @@ int main(int argc, char *argv[]) {
 		for(j=i+1;j<10;j++){
 			cmpi = slist[i];
 			cmpj = slist[j];
+			if(*cmpi < 96){
+				*cmpi += 32;
+			}
+			if(*cmpj < 96){
+				*cmpj += 32;
+			}
 			while(*cmpj==*cmpi){
 				cmpi++;
 				cmpj++;
