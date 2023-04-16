@@ -24,7 +24,7 @@ int main(void){
 		ptr1 ++;
 	}
 	*ptr2 = ' ';
-  ptr2++;
+ 	ptr2++;
 	ptr1 = string2;
 	while(*ptr1 != '\0'){
 		*ptr2 = *ptr1;
