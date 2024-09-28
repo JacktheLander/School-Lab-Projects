@@ -1,9 +1,3 @@
-/*
- * 
- *	COEN 12 - Project 3, Part 1 - Strings
- *	Jack Landers
- *
- */
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
