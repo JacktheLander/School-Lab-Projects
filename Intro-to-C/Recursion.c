@@ -1,9 +1,3 @@
-/*
- * 
- * 	Lab 8 - Recursion
- * 	COEN 11 -- Fall 2021
- *
- */
 #include "11lab8.h"
 //Main
 int main(int argc, char *argv[]){
