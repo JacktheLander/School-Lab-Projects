@@ -1,9 +1,3 @@
-/*
- * 
- * 	Lab 4 - Food order
- * 	COEN 11 -- Fall 2021
- *
- */
 #include <stdio.h>
 #include <stdlib.h>
 
