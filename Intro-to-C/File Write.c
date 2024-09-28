@@ -1,9 +1,3 @@
-/*
- * 
- * 	Lab 7 - File Write
- * 	COEN 11 -- Fall 2021
- *
- */
 #include <stdio.h>
 #include <stdlib.h>
 #define NODE struct node
