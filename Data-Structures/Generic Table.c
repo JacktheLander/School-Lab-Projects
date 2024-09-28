@@ -1,9 +1,3 @@
-/*
- *
- * 	COEN 12 - Project 3, Part 2 - Generic
- * 	Jack Landers
- *
- */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
