@@ -1,9 +1,3 @@
-/*
- *
- *	COEN 12 - Project 4, Part 2 - Hash table with linked lists
- *	Jack Landers
- *
- */
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
