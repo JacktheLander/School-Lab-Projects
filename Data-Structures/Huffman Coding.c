@@ -1,9 +1,3 @@
-/*
- *
- *	Coen 12 - Project 5, Huffman Coding
- *	Jack Landers
- *
- */
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>	
