@@ -1,0 +1,1 @@
+In Abstract Data Structures we learned about ata abstraction: abstract data types, information hiding, interface specification. And, basic data structures: stacks, queues, lists, binary trees, hashing, tables, graphs;
