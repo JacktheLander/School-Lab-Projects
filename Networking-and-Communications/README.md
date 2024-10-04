@@ -1,1 +1,1 @@
-In Networking and Communications by Professor Narasimha I learned to model signal encoding systems in MATLAB
+In Networking and Communications by Dr Narasimha I learned to model signal encoding systems in MATLAB
