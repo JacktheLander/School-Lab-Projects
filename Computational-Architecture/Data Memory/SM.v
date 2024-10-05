@@ -57,10 +57,10 @@ module l5_SM(input clk,
 	               add_sub = 1'b0;
 	               pc_en = 1'b1;
 	               ILin = 1'b1;
-	               rf_sel = 1'b0;	/* TODO #4: complete the control logic output */
-		       sw_sel = 1'b0;	/* TODO #4: complete the control logic output */
-		       MemWr = 1'b0;	/* TODO #4: complete the control logic output */
-		       AddrSel = 1'b0;	/* TODO #4: complete the control logic output */
+	               rf_sel = 1'b0;	
+		       sw_sel = 1'b0;	
+		       MemWr = 1'b0;	
+		       AddrSel = 1'b0;	
 	           end
 	       DECODE:
 	           begin
@@ -76,10 +76,10 @@ module l5_SM(input clk,
 	               add_sub = 1'b0;
 	               pc_en = 1'b0;
 	               ILin = 1'b0;
-	               rf_sel = 1'b0; /* TODO #4 */		 
-		       sw_sel = 1'b0; /* TODO #4 */
-		       MemWr = 1'b0; /* TODO #4 */
-		       AddrSel = 1'b0; /* TODO #4 */
+	               rf_sel = 1'b0; 		 
+		       sw_sel = 1'b0; 
+		       MemWr = 1'b0; 
+		       AddrSel = 1'b0; 
 	           end
 	       LOAD:
 	           begin
@@ -95,10 +95,10 @@ module l5_SM(input clk,
 	               add_sub = 1'b0;
 	               pc_en = 1'b0;
 	               ILin = 1'b0;
-	               rf_sel = 1'b0; /* TODO #4 */
-		       sw_sel = 1'b0; /* TODO #4 */
-		       MemWr = 1'b0; /* TODO #4 */
-		       AddrSel = 1'b1; /* TODO #4 */
+	               rf_sel = 1'b0; 
+		       sw_sel = 1'b0; 
+		       MemWr = 1'b0; 
+		       AddrSel = 1'b1; 
 	           end	   
 	       READ_Y:
 	           begin
@@ -114,10 +114,10 @@ module l5_SM(input clk,
 	               add_sub = 1'b0;
 	               pc_en = 1'b0;
 	               ILin = 1'b0;
-	               rf_sel = 1'b0; /* TODO #4 */
-		       sw_sel = 1'b0; /* TODO #4 */
-		       MemWr = 1'b0; /* TODO #4 */
-		       AddrSel = 1'b0; /* TODO #4 */
+	               rf_sel = 1'b0; 
+		       sw_sel = 1'b0; 
+		       MemWr = 1'b0; 
+		       AddrSel = 1'b0; 
 	           end	   
 	       READ_X:
 	           begin
@@ -133,10 +133,10 @@ module l5_SM(input clk,
 	               add_sub = 1'b0;
 	               pc_en = 1'b0;
 	               ILin = 1'b0;
-	               rf_sel = 1'b0; /* TODO #4 */
-		       sw_sel = 1'b0; /* TODO #4 */
-		       MemWr = 1'b0; /* TODO #4 */
-		       AddrSel = 1'b0; /* TODO #4 */
+	               rf_sel = 1'b0; 
+		       sw_sel = 1'b0;
+		       MemWr = 1'b0; 
+		       AddrSel = 1'b0;
 	           end	  
 	       ADD:
 	           begin
@@ -152,10 +152,10 @@ module l5_SM(input clk,
 	               add_sub = 1'b0;
 	               pc_en = 1'b0;
 	               ILin = 1'b0;
-	               rf_sel = 1'b1; /* TODO #4 */
-		       sw_sel = 1'b0; /* TODO #4 */
-		       MemWr = 1'b0; /* TODO #4 */
-		       AddrSel = 1'b0; /* TODO #4 */
+	               rf_sel = 1'b1; 
+		       sw_sel = 1'b0; 
+		       MemWr = 1'b0; 
+		       AddrSel = 1'b0;
 	           end	
 	       SUB:
 	           begin
@@ -171,10 +171,10 @@ module l5_SM(input clk,
 	               add_sub = 1'b1;
 	               pc_en = 1'b0;
 	               ILin = 1'b0;
-	               rf_sel = 1'b1; /* TODO #4 */
-		       sw_sel = 1'b0; /* TODO #4 */
-		       MemWr = 1'b0; /* TODO #4 */
-		       AddrSel = 1'b0; /* TODO #4 */
+	               rf_sel = 1'b1;
+		       sw_sel = 1'b0; 
+		       MemWr = 1'b0; 
+		       AddrSel = 1'b0; 
 	           end
 	       MV:
 	           begin
@@ -190,10 +190,10 @@ module l5_SM(input clk,
 	               add_sub = 1'b0;
 	               pc_en = 1'b0;
 	               ILin = 1'b0;
-	               rf_sel = 1'b1; /* TODO #4 */
-		       sw_sel = 1'b0; /* TODO #4 */
-		       MemWr = 1'b0; /* TODO #4 */
-		       AddrSel = 1'b0; /* TODO #4 */
+	               rf_sel = 1'b1;
+		       sw_sel = 1'b0; 
+		       MemWr = 1'b0; 
+		       AddrSel = 1'b0; 
 	           end
 	       WRITE_X:
 	           begin
@@ -209,7 +209,7 @@ module l5_SM(input clk,
 	               add_sub = 1'b0;
 	               pc_en = 1'b0;
 	               ILin = 1'b0;
-	               rf_sel = 1'b0; /* TODO #4 */
+	               rf_sel = 1'b0; 
 		       sw_sel = 1'b0; /* TODO #4 */
 		       MemWr = 1'b0; /* TODO #4 */
 		       AddrSel = 1'b0; /* TODO #4 */
