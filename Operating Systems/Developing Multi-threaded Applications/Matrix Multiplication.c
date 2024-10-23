@@ -5,7 +5,7 @@
 #define N 256
 #define M 256
 #define L 256
-//N, M, L should all = 256 so they are large enough to exploit parallelism
+// N, M, L should all = 256 so they are large enough to exploit parallelism
 
 int matrixA[N][M];
 int matrixB[M][L];
