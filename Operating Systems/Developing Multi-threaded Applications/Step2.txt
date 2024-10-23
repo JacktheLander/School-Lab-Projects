@@ -1,0 +1,5 @@
+Delete the second for loop in threadHello.c program so that the main function simply creates
+NTHREADS threads and then prints “Main thread done” and immediately returns. What are the possible
+outputs of the program now? Explain. Count the number of lines of output if needed.
+
+Because of the different go functions the ids are still sometimes wrong but 20 threads are always created. There are 2 possible outputs, the correct id is printed or the incorrect id. It sometimes runs the function with the incorrect id after the return to main.
