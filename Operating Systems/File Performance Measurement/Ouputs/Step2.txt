@@ -1,0 +1,23 @@
+Step2 file1.bin
+
+real    0m0.002s
+user    0m0.000s
+sys     0m0.000s
+
+Step2 file2.bin
+
+real    0m0.002s
+user    0m0.000s
+sys     0m0.001s
+
+Step2 file3.bin
+
+real    0m0.003s
+user    0m0.000s
+sys     0m0.002s
+
+Step2 file4.bin
+
+real    0m0.013s
+user    0m0.001s
+sys     0m0.011s

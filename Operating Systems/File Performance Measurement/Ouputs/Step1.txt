@@ -1,0 +1,3 @@
+[jlanders@linux10618 lab9]$ sh step1.sh
+[jlanders@linux10618 lab9]$ ls
+file1.bin  file2.bin  file3.bin  file4.bin  step1.sh

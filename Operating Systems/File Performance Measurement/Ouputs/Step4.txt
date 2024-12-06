@@ -1,0 +1,95 @@
+Step4 file1.bin 100
+
+real    0m0.007s
+user    0m0.001s
+sys     0m0.000s
+
+Step4 file1.bin 1000
+
+real    0m0.010s
+user    0m0.000s
+sys     0m0.000s
+
+Step4 file1.bin 10000
+
+real    0m0.007s
+user    0m0.000s
+sys     0m0.000s
+
+Step4 file1.bin 100000
+
+real    0m0.007s
+user    0m0.000s
+sys     0m0.001s
+
+Step4 file2.bin 100
+
+real    0m0.007s
+user    0m0.000s
+sys     0m0.001s
+
+Step4 file2.bin 1000
+
+real    0m0.007s
+user    0m0.000s
+sys     0m0.001s
+
+Step4 file2.bin 10000
+
+real    0m0.007s
+user    0m0.001s
+sys     0m0.000s
+
+Step4 file2.bin 100000
+
+real    0m0.007s
+user    0m0.000s
+sys     0m0.000s
+
+Step4 file3.bin 100
+
+real    0m0.008s
+user    0m0.000s
+sys     0m0.002s
+
+Step4 file3.bin 1000
+
+real    0m0.008s
+user    0m0.000s
+sys     0m0.002s
+
+Step4 file3.bin 10000
+
+real    0m0.008s
+user    0m0.000s
+sys     0m0.002s
+
+Step4 file3.bin 100000
+
+real    0m0.008s
+user    0m0.000s
+sys     0m0.002s
+
+Step4 file4.bin 100
+
+real    0m0.019s
+user    0m0.001s
+sys     0m0.011s
+
+Step4 file4.bin 1000
+
+real    0m0.019s
+user    0m0.000s
+sys     0m0.012s
+
+Step4 file4.bin 10000
+
+real    0m0.023s
+user    0m0.004s
+sys     0m0.010s
+
+Step4 file4.bin 100000
+
+real    0m0.021s
+user    0m0.001s
+sys     0m0.013s
